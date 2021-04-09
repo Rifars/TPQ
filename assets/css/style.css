@@ -69,9 +69,11 @@ ul li {
     /* height: auto; */
 }
 
-
+.gallery{
+    width: 100%;
+}
 .imggallery{
-    max-height: auto;
+    /* max-height: auto; */
     border-radius: 5px;
     border: 3px solid #eebb4d;
 }
