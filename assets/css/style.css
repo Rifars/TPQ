@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f0f0f08e;
+    font-family:roboto,sans-serif;
+    overflow-x: hidden;
+    width: 100%;
+}
+.dropdown-item:hover {
+    background-color: #184d47;
+    color: white;
+}
+
+ul li {
+    list-style: none;
+}
+
+.card-berita:hover {
+    transform: scale(1.04);
+    transition: .5s;
+}
+
+.card-berita{
+    transition: .5s;
+}
+
+.text-hijau-tua{
+    color: #184d47;
+}
+
+.text-hijau-muda1{
+    color: #96bb7c;
+}
+.text-hijau-muda2{
+    color: #d6efc7;
+}
+
+.hijau-tua {
+    background-color: #184d47;
+}
+.hijau-muda1 {
+    background-color: #96bb7c;
+}
+.hijau-muda2 {
+    background-color: #d6efc7;
+}
+.kuning {
+    background-color: #eebb4d;
+}
+
+.rounded-bawah {
+    border-radius:  100px 0 100px 0;
+}
+
+.hover:hover {
+    filter: brightness(.7);
+}
+
+.footer {
+    color: #aeaeae;
+}
+
+.modal-content {
+    /* width: 90%; */
+    margin: auto;
+    /* height: auto; */
+}
+
+
+.imggallery{
+    max-height: auto;
+    border-radius: 5px;
+    border: 3px solid #eebb4d;
+}
+
+.imggallery:hover {
+    transition: .3s;
+    transform: scale(1.03);
+    filter:brightness(.8);
+}
+
+.list li {
+    list-style: none;
+    margin-bottom:5px ;
+}
+
+.abu-abu {
+    text-decoration: none;
+    color: #aeaeae !important;
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px){
+    
+    .text-header {
+        order: 1;
+    }
+    .img-header {
+        order: 2;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:768px){
+    .text-navbar h6{
+        font-size: 14px;
+    } 
+    img, iframe {
+        margin-bottom: 20px;
+    }
+    .container {
+        width: 90%;
+    }
+    img {
+        margin-bottom: 15px;
+    }
+    .text-header {
+        order: 2;
+    }
+    .img-header {
+        order: 1;
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (min-width:306px) and ( max-width:576px ){
+    .text-navbar h6{
+        font-size: 14px;
+    } 
+    img, iframe {
+        margin-bottom: 20px;
+    }
+    .container {
+        width: 90%;
+    }
+    h1{
+        font-size: 23px !important;
+    }
+    h2{
+        font-size: 18px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    .navbar-brand{
+       
+        font-size: 14px !important;
+    }
+    .navbar-brand img {
+        width: 35px !important;
+        height: 37px !important;
+    }
+    .text-header {
+        order: 2;
+    }
+    .img-header {
+        order: 1;
+        margin-bottom: 10px;
+    }
+    p,a {
+        font-size: 15px;
+    }
+}
